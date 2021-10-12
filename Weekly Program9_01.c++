@@ -24,11 +24,8 @@ int main()
 	FILE* fp;
 	fp = fopen("TextFile.txt", "w");
 
+	fprintf(fp, "%s\n", player[0].name);
 	
-		fprintf(fp, "%s\n", player[0].name);
-
-	
-	printf("%s\n", player[0].name);
 	fclose(fp);
 	return 0;
 }
