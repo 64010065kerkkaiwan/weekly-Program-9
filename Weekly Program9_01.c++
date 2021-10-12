@@ -22,7 +22,7 @@ int main()
 	
 	
 	FILE* fp;
-	fp = fopen("TextFile.txt", "w");
+	fp = fopen("c:\temp\data.txt", "w");
 
 	fprintf(fp, "%s\n", player[0].name);
 	
