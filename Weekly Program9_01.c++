@@ -7,23 +7,19 @@
 
 struct player
 {
-	char name[100];
+	char name[1000];
 	
 	
 };
 
 int main()
 {
-	player player[100];
-	int i = 0;
+	player player[10];
+	
 	printf("Input data string : \n");
-	while ( i < 10)
-	{
-		
-		scanf("%[^.]s", player[i].name);
-		i++;
-		
-	}
+	
+	scanf("%[^.]s", player[0].name);
+	
 	
 	FILE* fp;
 	fp = fopen("TextFile.txt", "w");
