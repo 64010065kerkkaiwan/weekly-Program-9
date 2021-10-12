@@ -8,24 +8,24 @@
 struct player
 {
 	char name[1000];
-	
-	
+
+
 };
 
 int main()
 {
 	player player[10];
-	
+
 	printf("Input data string : \n");
-	
+
 	scanf("%[^.]s", player[0].name);
-	
-	
+
+
 	FILE* fp;
-	fp = fopen("c:\temp\data.txt", "w");
+	fp = fopen("Tempdata.txt", "w");
 
 	fprintf(fp, "%s\n", player[0].name);
-	
+
 	fclose(fp);
 	return 0;
 }
