@@ -22,7 +22,7 @@ int main()
 
 
 	FILE* fp;
-	fp = fopen("datanumbers.txt", "w");
+	fp = fopen("Tempdata.txt", "w");
 
 	fprintf(fp, "%s\n", player[0].name);
 
