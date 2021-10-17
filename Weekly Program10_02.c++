@@ -38,7 +38,7 @@ int main()
 	
 
 	FILE* fp;
-	fp = fopen("Swapnumber.txt", "a");
+	fp = fopen("Swapvalues.txt", "a");
 
 	fprintf(fp, "Input two Numbers : %d %d\n", a, b);
 	fprintf(fp, "Swapping values   : %d %d\n\n", x, y);
